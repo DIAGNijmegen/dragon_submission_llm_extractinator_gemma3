@@ -223,7 +223,7 @@ class DragonSubmission(DragonBaseline):
 
         extractinate(
             task_id=self.task_id,
-            model_name="gemma3:12b",
+            model_name="gemma3",
             num_examples=0,
             temperature=0.0,
             max_context_len="split",
